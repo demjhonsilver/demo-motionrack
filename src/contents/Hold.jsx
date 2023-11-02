@@ -15,6 +15,39 @@ export const Hold = () => {
               expand 
                  </div>
             </div>
+
+
+            <div className="duoPad">
+              <div className="duoBox" data-motionrack-once="slopeUpLeft" style={{backgroundColor: '#77b5fe '}}>
+              slopeUpLeft
+              </div>
+              <div className="duoBox" data-motionrack-once="slopeUpRight" style={{backgroundColor: '#77b5fe '}}>
+              slopeUpRight
+              </div>
+            </div>
+
+
+            <div className="duoPad">
+              <div className="duoBox" data-motionrack-once="slopeDownLeft" style={{backgroundColor: '#77b5fe '}}>
+              slopeDownLeft
+              </div>
+              <div className="duoBox" data-motionrack-once="slopeDownRight" style={{backgroundColor: '#77b5fe '}}>
+              slopeDownRight
+              </div>
+            </div>
+
+
+            <div className="monoPad">
+              <div className="monoBox" data-motionrack-once="pump" style={{backgroundColor: '#77b5fe '}}>
+              pump
+                 </div>
+            </div>
+
+
+
+
+
+
             <div className="duoPad">
               <div className="duoBox" data-motionrack-once="motionLeft" style={{backgroundColor: '#77b5fe '}}>
                 motionLeft

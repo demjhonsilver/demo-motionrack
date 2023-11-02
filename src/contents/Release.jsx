@@ -10,11 +10,50 @@ export const Release = () => {
         <div>
             <h3>Animation for many times ( data-motionrack )</h3>
           <div className="motionrack-wrap">
+
+
+
+
+
             <div className="monoPad">
               <div className="monoBox" data-motionrack="expand" style={{backgroundColor: '#77b5fe '}}>
               expand 
                  </div>
             </div>
+
+
+            <div className="duoPad">
+              <div className="duoBox" data-motionrack="slopeUpLeft" style={{backgroundColor: '#77b5fe '}}>
+              slopeUpLeft
+              </div>
+              <div className="duoBox" data-motionrack="slopeUpRight" style={{backgroundColor: '#77b5fe '}}>
+              slopeUpRight
+              </div>
+            </div>
+
+
+            <div className="duoPad">
+              <div className="duoBox" data-motionrack="slopeDownLeft" style={{backgroundColor: '#77b5fe '}}>
+              slopeDownLeft
+              </div>
+              <div className="duoBox" data-motionrack="slopeDownRight" style={{backgroundColor: '#77b5fe '}}>
+              slopeDownRight
+              </div>
+            </div>
+
+
+            <div className="monoPad">
+              <div className="monoBox" data-motionrack="pump" style={{backgroundColor: '#77b5fe '}}>
+              pump
+                 </div>
+            </div>
+
+
+
+
+
+
+
             <div className="duoPad">
               <div className="duoBox" data-motionrack="motionLeft" style={{backgroundColor: '#77b5fe '}}>
                 motionLeft
